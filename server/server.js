@@ -21,7 +21,8 @@ const server = http.createServer((requisicao, resposta) => {
         resposta.end(`Hello ${parametrosConsulta.nome} ${parametrosConsulta.sobrenome}`);
         return;
     }
-
+/*alô meu povo
+*/
     resposta.statusCode = 404;
     resposta.setHeader('Content-Type', 'text/plain');
     resposta.end(`Pagina nao encontrada ${requisicao.url}`);
