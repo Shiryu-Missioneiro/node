@@ -13,7 +13,6 @@ const sala = [
     }
 ];
 
-//console.log('Média: ' + media);
 //console.log(sala[1]);
 
 const aluno1 = sala[0];
