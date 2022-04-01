@@ -39,7 +39,7 @@ function medias() {
         status = "Aprovado"
     }
     console.log(`Aluno: ${sala[i].nome} - Disciplina: ${sala[i].disciplina} - Média Final: ${media} - Condição: ${status}`);  
-    }     
+    }
 }
 
 medias(sala)
